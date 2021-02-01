@@ -1,10 +1,13 @@
-n = int(input('Informe um número de 0 até 9999: '))
-u = n // 1 % 10
-d = n // 10 % 10
-c = n // 100 % 10
-m = n // 1000 % 10
-print('Analisando o número {}'.format(n))
-print('Unidade: {}'.format(u))
-print('Dezena: {}'.format(d))
-print('Centena: {}'.format(c))
-print('Milhar: {}'.format(m))
+'''
+Analysing a number between 0 to 9999
+'''
+num = int(input('Type a number between 0 to 9999: '))
+unit = num // 1 % 10
+ten = num // 10 % 10
+hun = num // 100 % 10
+tho = num // 1000 % 10
+print('Analysing the number {}...'.format(num))
+print('The unit: {}'.format(unit))
+print('The ten: {}'.format(ten))
+print('The hundred: {}'.format(hun))
+print('The thousand: {}'.format(tho))

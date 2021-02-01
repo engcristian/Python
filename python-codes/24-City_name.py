@@ -1,3 +1,7 @@
-city = str(input('Em que cidade você nasceu? '))
+'''
+Will set true for any city with the name Saint included.
+e.g. = Saint Louis
+'''
+city = str(input('In what city were you born? '))
 c = city.lower()
-print('santo' in c)
+print('saint' in c)
