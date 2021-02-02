@@ -9,6 +9,6 @@ num_cpu = randint(0, 5)
 print('LOADING')
 sleep(3)
 if num == num_cpu:
-    print(" You WON!! I was thinking about number {}!!".format(num_cpu))
+    print(" You WON!! I was thinking about number {num_cpu}!!".format(num_cpu))
 else:
-    print('Missed!! The number I was thinking was {}!'.format(num_cpu))
+    print('Missed!! The number I was thinking was {num_cpu}!'.format(num_cpu))
