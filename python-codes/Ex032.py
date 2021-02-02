@@ -1,4 +1,4 @@
-''' calcular se o ano é bissexto'''
+''' Calculat the leap year'''
 from datetime import date
 ano = int(input('Que ano quer analizar? Coloque 0 para analizar o ano atual.'))
 if ano == 0:

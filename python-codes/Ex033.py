@@ -1,4 +1,4 @@
-# ler três números e mostrar qual é o menor e o maior
+# Read the major number
 num1 = int(input('Digite o 1º número:'))
 num2 = int(input('Digite o 2º número:'))
 num3 = int(input('Digite o 3º número:'))
