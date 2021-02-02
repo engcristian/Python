@@ -1,1 +1,0 @@
-# uma tupla com várias palavras (sem acentos), depois disso mostrar para cada palavra suas vogais

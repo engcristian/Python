@@ -1,1 +1,0 @@
-# gerar 5 números aleatórios e colocar em uma tupla, mostrar a listagem que esta na tupla e indicar o maior e menor#

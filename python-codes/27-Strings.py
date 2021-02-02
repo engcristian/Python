@@ -1,3 +1,6 @@
+'''
+simple string excersice with names;
+'''
 nome = str(input('Digite seu nome completo: ')).rstrip().lstrip().split()
 
 print('Muito prazer em te conhecer!!')
