@@ -1,7 +1,7 @@
 '''
 Reading the car's speed and checking the fee
 '''
-speed = int(input('Qual é a velocidade atual do carro?'))
+speed = int(input("What is the actual car's speed?"))
 
 if speed > 80:
 
