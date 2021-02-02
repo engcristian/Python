@@ -1,6 +1,6 @@
-''' LEr a velocidade de um carro, se 80km+ (foi multado) e a multa vai custar
-7 reais por cada km acima do limite (condição simples)'''
-
+'''
+Reading the car's speed and checking the fee
+'''
 speed = int(input('Qual é a velocidade atual do carro?'))
 
 if speed > 80:

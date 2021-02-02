@@ -1,4 +1,6 @@
-''' ler um número inteiro, se é par ou impar'''
+'''
+Read and int number and check the EVEN or ODD 
+'''
 
 num = int(input('Digite um número:'))
 
