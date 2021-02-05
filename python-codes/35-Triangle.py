@@ -2,7 +2,7 @@
 Read 3 lengths of a line, and discover if they can form a triangle or not.
 """
 print('-='*20)
-print(f'{"Triangle Analyser":^40}')
+print(f'{"Triangle Analyzer":^40}')
 print('-='*20)
 
 a = float(input('First segment: '))
