@@ -1,4 +1,6 @@
-#ler o ano de nascimento de 7 pessoas e no final mostrar quantas atingiram a maior idade e quantas ainda não
+'''
+Ask 7 birth year and show how many are adulthood and how many aren't.
+'''
 from datetime import date
 hj = date.today().year
 s = 0
