@@ -23,8 +23,8 @@ def send_email(store_resume, store):
     msg['Subject'] = "Email subject" #Change the e-mail's subject here
     
     
-    msg['From'] = 'cristoferdefontes@gmail.com' #insert the e-mail that will send
-    msg['To'] = 'cris_lag.o.o@hotmail.com' # the email that will receive
+    msg['From'] = 'your_email@gmail.com' #insert the e-mail that will send
+    msg['To'] = 'receiver@anyemail.com' # the email that will receive
     #here your password is hidden, so only when the program is running that you'll insert your email
     password = email_password 
     msg.add_header('Content-Type', 'text/html')
@@ -36,7 +36,7 @@ def send_email(store_resume, store):
     s.login(msg['From'], password)
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
     print('Email sent')
-
+#Reading the xlsx dataframe
 df = pd.read_excel('python-projects/Vendas.xlsx')
 #Getting the billing from the dataframe ID Loja and Valor Final
 billing = df[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()
