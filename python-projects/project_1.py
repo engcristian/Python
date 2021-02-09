@@ -37,7 +37,7 @@ def send_email(store_resume, store):
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
     print('Email sent')
 #Reading the xlsx dataframe
-df = pd.read_excel('python-projects/Vendas.xlsx')
+df = pd.read_excel('Vendas.xlsx')
 #Getting the billing from the dataframe ID Loja and Valor Final
 billing = df[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()
 #Sorting the elements from billing by False ascending
