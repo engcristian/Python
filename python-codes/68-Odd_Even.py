@@ -1,5 +1,5 @@
 '''
-ODD or EVEN game against the cpu, using numbers beteween 0 and 5.
+(Inclomplete) ODD or EVEN game against the cpu, using numbers beteween 0 and 5.
 '''
 from random import randint #making the cpu pic a random number
 from time import sleep #just to give an interaction for the game
