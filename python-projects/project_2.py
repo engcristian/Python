@@ -5,7 +5,7 @@ Analyzing the dataframe by plotly lib, checking the informations through graphic
 import pandas as pd
 #importing the clients bank data
 clients_df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ClientesBanco.csv', encoding='latin1')
-#deleting the unecessary columns
+#deleting the unnecessary columns
 clients_df = clients_df.drop('CLIENTNUM', axis = 1)
 display(clients_df)
 
