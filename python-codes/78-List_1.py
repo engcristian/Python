@@ -13,5 +13,11 @@ max_num = max(my_list)
 min_num = min(my_list)
 
 print(f'The list created is: {my_list}')
-print(f'The lower value is {min_num}, and it is in the {my_list.index(min_num)+1}º position.')
-print(f'The higher value is {max_num}, and it is in the {my_list.index(max_num)+1}º position.')
+print(f'The lower value is {min_num}, and it is in the position: ',end='')
+for i, v in enumerate(my_list):
+    if v == min_num:
+        print(f'{i}...',end='')
+print(f'\nThe higher value is {max_num}, and it is in the position: ',end='')
+for i, v in enumerate(my_list):
+    if v == max_num:
+        print(f'{i}...', end='')
