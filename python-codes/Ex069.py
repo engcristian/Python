@@ -1,19 +1,19 @@
-maior = cont_homen =cont_mulher = 0
+older = count_man =count_woman = 0
 while True:
-    idade = int(input('Digite a idade: '))
-    sexo = ' '
-    while sexo not in 'MF':
-        sexo = str(input('Digite o sexo: [M/F]')).strip().upper()[0]
-    if idade >= 18:
-        maior += 1
-    if idade > 1 and 'M' in sexo:
-        cont_homen += 1
-    if idade < 20 and 'F' in sexo:
-        cont_mulher += 1
-    parar = str(input('Deseja continuar cadastrando? [Y/N]')).strip().lower()
-    while parar not in 'yn':
-        print('As opções são Y - yes e N - No.')
-        parar = str(input('Deseja continuar cadastrando? [Y/N]')).strip().lower()[0]
-    if 'n' in parar:
+    age = int(input('Type your age: '))
+    gender = ' '
+    while gender not in 'MW':
+        gender = str(input('Type your gender: [M/W]')).strip().upper()[0]
+    if age >= 18:
+        older += 1
+    if age > 1 and 'M' in gender:
+        count_man += 1
+    if age < 20 and 'W' in gender:
+        count_woman += 1
+    stop = str(input('Do you want to keep? [Y/N]')).strip().lower()
+    while stop not in 'yn':
+        print('Sorry, the options are Y - yes and N - No.')
+        stop = str(input('Do you want to keep signin up? [Y/N]')).strip().lower()[0]
+    if 'n' in stop:
         break
-print(f'{maior} maiores de idade\n{cont_homen} foram homens\ne {cont_mulher} mulheres menores de idade.')
+print(f'{older} Older people\n{count_man} were men\nand {count_woman} underage woman.')
