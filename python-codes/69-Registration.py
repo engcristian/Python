@@ -1,3 +1,7 @@
+'''
+Signing up men and women both getting the gender and age information
+'''
+
 older = count_man =count_woman = 0
 while True:
     age = int(input('Type your age: '))
