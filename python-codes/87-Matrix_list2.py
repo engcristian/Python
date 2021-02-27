@@ -26,7 +26,7 @@ for c in range(0,3):
     if num3%2 ==0:
         sum_even_cr3 += num3
 total_sum= sum_even_cr1+sum_even_cr2+sum_even_cr3
-sum_3rd_column = cr1[-1] + cr2[-1] + cr3 [-1]
+sum_3rd_column = cr1[-1] + cr2[-1] + cr3[-1]
 print(f''' The matrix is:
             {cr1}
             {cr2}
