@@ -14,5 +14,5 @@ while True:
         for i  in range (6):
             num = randint(1,60)
             game.append(num)
-    break
+    print('QUEr continuar?')
 print(game)
