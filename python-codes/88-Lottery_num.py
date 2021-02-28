@@ -14,10 +14,12 @@ while True:
         for a  in range (n):
             num = randint(1,60)
             geral.append(num)
-    
-        splited = [geral[i::n] for i in range(n)]
-        print(splited)
-        break
+            sorted(geral)
+               
+    splited = [geral[i::jogada] for i in range(jogada)]
+    order = sorted(splited)
+    print(order)
+    break
 
     
     
