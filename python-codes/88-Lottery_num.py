@@ -17,8 +17,8 @@ while True:
             sorted(geral)
                
     splited = [geral[i::jogada] for i in range(jogada)]
-    order = sorted(splited)
-    print(order)
+    order = (splited)
+    print()
     break
 
     
