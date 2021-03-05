@@ -5,16 +5,14 @@ At the end show all them in crescent order;
 E.g. numbers = [[ODD_num],[EVEN_num]]
 show separated
 '''
-odd_list = []
-even_list = []
-odd_even_list = []
-
+odd_even_list = [[],[]]
 for i in range(0,7):
     num = int(input(f'Type the {i+1}º number: '))
     if num%2 == 0:
-        even_list.append(num)
+       odd_even_list[0].append(num)
     else:
-        odd_list.append(num)
-odd_even_list.append(sorted(even_list))
-odd_even_list.append(sorted(odd_list))
-print(f'The odd and even list ordened is : {odd_even_list}')
+       odd_even_list[1].append(num)
+order = sorted(odd_even_list)
+print(f'The odd and even list ordened is : {order}')
+print(f'The EVEN list is : {order[1]}')
+print(f'The ODD list is : {order[0]}')

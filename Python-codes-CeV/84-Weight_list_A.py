@@ -14,3 +14,9 @@ while True:
             low = temp[1]
     main.append(temp[:])
     temp.clear()
+    opt = str(input('Do you want to keep?'))
+    if opt in 'Nn':
+        break
+for w in main:
+    if p[1] == main:
+        print(f'{w[0]}',end='')
