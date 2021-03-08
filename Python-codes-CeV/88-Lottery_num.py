@@ -5,7 +5,7 @@ sortear seis numeros entre 1 e 60 para cada jogo
 cadastrar tudo em uma lista composta
 '''
 from random import randint
-my_game = [1,5,17,16,39,44]
+my_game = [5,12,20,23,40,43]
 num_list = []
 game_list = []
 amount = int(input('How many games do you want? '))
@@ -26,8 +26,8 @@ while total <= amount:
     total += 1   
 
 for i, l in enumerate(game_list):
-    print(f'{i+1}º game = {l}')
+    
     if l == my_game:
-        
-        tot +=1
+        print('You are the winner') 
+        tot += 1   
 print(tot)
