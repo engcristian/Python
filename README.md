@@ -7,6 +7,6 @@ Some codes in Python like applications, simple games, projects, exercises and ba
 
 
 <p align="center">
- <a href ='https://web.digitalinnovation.one/users/cristoferdefontes?tab=achievements' target ='blanket' > <img src="https://user-images.githubusercontent.com/75224625/110407783-3e48ad00-8063-11eb-85a2-3f177b13ed09.png" width="350" title="Check my profile at Digital Innovation One"></a>
+ <a href ='https://web.digitalinnovation.one/users/cristoferdefontes?tab=achievements' target ='_blank' > <img src="https://user-images.githubusercontent.com/75224625/110407783-3e48ad00-8063-11eb-85a2-3f177b13ed09.png" width="350" title="Check my profile at Digital Innovation One"></a>
   
 </p>
