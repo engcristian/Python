@@ -33,7 +33,8 @@
   <li><strong>Time_calculator</strong>: This project returns the exaclty time when added a new time (in minutes or hours), also show how many days later it will be.</li>
  
 </ol> 
-Still working on it! ✌😉</h3> 
+</h3>
+<h3>Still working on it! ✌😉</h3> 
 
 
 <p align="center">
