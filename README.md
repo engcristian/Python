@@ -27,13 +27,13 @@
 <h3><strong>3- python-projects-FCC</strong>: Some python codes as exercises, including the projects from <strong>Scientific computing with Python</strong> course from <strong>FreeCodeCamp</strong>. The projects are:
 </h3>
 <ol>
- <h2>
+ <h3>
   <li><strong>Arithetic_formater.py</strong> : This project is defined by a function that will return arithmetics problems in an easy format for children understand. </li>
   <li><strong>Main_Arithmetic.py</strong>: Importing the function made in the code above, here is possible set the problems and get the return from the function.</li>
   <li><strong>Time_calculator</strong>: This project returns the exaclty time when added a new time (in minutes or hours), also show how many days later it will be.</li>
- </h2>
+ 
 </ol> 
-<h3>Still working on it! ✌😉</h3> 
+Still working on it! ✌😉</h3> 
 
 
 <p align="center">
