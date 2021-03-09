@@ -1,7 +1,8 @@
-# Python
-Some codes in Python like applications, simple games, projects, exercises and basic material.
+<div aling = 'center'> <h1> Python</h1> </div>
+ <h1>Some codes in Python like applications, simple games, projects, exercises and basic material.</h1>
 
-<strong>1- python-codes-CEV</strong> : A lot of examples in Python using old and new scripts. All codes were originally done as exercises and challenges at https://www.cursoemvideo.com/ in a course developed by <strong>@gustavoguanabara</strong>. 90% of them translated to English by myself (still working on it), added new comments and changed some lines.
+
+<h3><strong>1- python-codes-CEV</strong> : A lot of examples in Python using old and new scripts. All codes were originally done as exercises and challenges at https://www.cursoemvideo.com/ in a course developed by <strong>@gustavoguanabara</strong>. 90% of them translated to English by myself (still working on it), added new comments and changed some lines.</h3>
 <p align="center">
  <a href ='www.cursoemvideo.com' target = '_blank' >
    <img src="https://www.cursoemvideo.com/wp-content/uploads/2019/09/Python3–Mundo1-300x300.png" width="150" title="Check the courses!" hspace = 15>
