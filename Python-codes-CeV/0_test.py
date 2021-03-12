@@ -1,12 +1,5 @@
-brasil = []
-estado = {}
-
-for c in range(0,3):
-    estado['uf'] = str(input('Unidade federativa: '))
-    estado['sigla'] = str(input('Sigla do estado: '))
-    brasil.append(estado.copy())
-print(brasil)
-
-for l in brasil:
-    for k, v in l.items():
-        print(f'O campo {k} tem valor {v}.')
+results = {}
+forest = [50, 100, 150, 200, 250, 300, 350, 400]
+for i in forest:
+    results[f'estimator{i}']= i
+print(results)

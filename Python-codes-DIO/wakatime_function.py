@@ -1,6 +1,6 @@
 import csv
 import pandas as pd
-import numpy as np
+
 time = []
 
 print('-'*50)

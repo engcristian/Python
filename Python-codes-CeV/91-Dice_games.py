@@ -12,3 +12,16 @@ Ex.:
 ...
 
 '''
+from random import randint
+
+game = {}
+jogador = 4
+
+for j in range(jogador):
+    jogada = randint(1,6)
+    game[f'Jogador{j+1}']= jogada
+    
+
+for k, v in game.items():
+    print(f'O jogador {k} obteve o valor {v}')
+print(f'O vencedor foi o jogador {}')
