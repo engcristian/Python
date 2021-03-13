@@ -12,3 +12,18 @@ contratação...........2014
 salário ............ 1240
 aposentadoria......... x
 '''
+from datetime import date
+
+hoje = date.today()
+
+reg = {}
+
+nome = str(input('Nome: '))
+reg['Nome'] = nome
+ano = int(input('Ano de nascimento: '))
+idade = (hoje.year - ano)
+reg['Idade'] = idade
+ctps = int(input('CTPS: '))
+reg['CTPS'] = ctps
+salario = float(input('Salário: '))
+print(reg)
