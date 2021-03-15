@@ -25,8 +25,7 @@ if opt == 1:
     time.append(int(input('Horario: ')))
     with open('hours.csv', 'a', newline='') as file:
     
-        writer = csv.writer(file)
-        
+        writer = csv.writer(file)        
 
         writer.writerow(time)       
         

@@ -1,16 +1,6 @@
 '''
-ler o nome, ano de nascimento e carteira de trabalho
-cadastrar com idade em um dicionário
-se ctps for diferente de 0, o dicionário recebera o ano da contratação e salario
-calcular e acrescentar além da idade, com quantos anos a pessoa vai se aposentar.
-(35 anos contribuindo)
-Ex.
->>nome tem o valor cristian
->>idade tem o valor 29
-ctps .......... 1234
-contratação...........2014
-salário ............ 1240
-aposentadoria......... x
+Make a simple registration of a labor data, inserting all in a dict and showing also other
+informations. 
 '''
 from datetime import date
 
@@ -25,5 +15,15 @@ idade = (hoje.year - ano)
 reg['Idade'] = idade
 ctps = int(input('CTPS: '))
 reg['CTPS'] = ctps
-salario = float(input('Salário: '))
-print(reg)
+if ctps > 0 :
+
+    ano_contrato = int(input('Ano da contratação: '))
+    salario = float(input('Salário: '))
+    reg['Ano contratação'] = ano_contrato
+    reg['Salário'] = salario
+    apo = 35 - (hoje.year- ano_contrato)
+    reg['Aposentadoria'] = apo
+print('-='*15)
+for k, v in reg.items():
+    print(f'{k}: {v}')
+print('-='*15)
