@@ -22,7 +22,8 @@ df = pd.read_csv('hours.csv', index_col= 'semana')
 
 if opt == 1:    
     time.append(str(input('Dia: ')))
-    time.append(int(input('Horario: ')))
+    time.append(int(input('Horas: ')))
+    time.append(int(input('Minutos: ')))
     with open('hours.csv', 'a', newline='') as file:
     
         writer = csv.writer(file)        
@@ -34,29 +35,32 @@ if opt == 1:
     print('Suas horas foram salvas.')
 if opt == 2:
     t = len(df)
-    total = df['horas'].sum()
+    minutos = df['minutos'].sum()
+    total = df['horas'].sum() + (minutos//60)
     print(f'Foram {t} dias de programação')
-    print(f'Ao todo {total} horas de programação. Parabéns')
+    print(f'Ao todo {total}h{minutos%60}min de programação. Parabéns')
 
 if opt == 3:
     
-    tot_y = df['horas'][-1:].sum()
-    a = df[-1:]
-    print(a)
-    print(f'Ontem foi um total de {tot_y} horas de programação.')
+    
+    minutos = df['minutos'][-1:].sum()
+    tot_y = df['horas'][-1:].sum() + minutos//60
+    #print(df[-1:])
+    print(f'Ontem foi um total de {tot_y}h{minutos%60}m de programação.')
 
 if opt == 4:
-    print(df[-7:])
-    tot_w = df['horas'][-7:].sum()
-    print(f'Últimos 7 dias teve um total de {tot_w} horas de programação.')
+    
+    minutos = df['minutos'][-7:].sum()
+    tot_w = df['horas'][-7:].sum() + minutos//60
+    print(f'Últimos 7 dias teve um total de {tot_w}h{minutos%60}m de programação.')
 if opt == 5:
-    print(df[-15:])
-    tot_q = df['horas'][-15:].sum()
-    print(f'Últimos 15 dias teve um total de {tot_q} horas de programação.')
+    minutos = df['minutos'][-15:].sum()
+    tot_q = df['horas'][-15:].sum() + minutos//60
+    print(f'Últimos 15 dias teve um total de {tot_q}h{minutos%60}m de programação.')
 if opt == 6:
-    print(df[-30:])
-    tot_m = df['horas'][-30:].sum()
-    print(f'Últimos 30 dias teve um total de {tot_m} horas de programação.')
+    minutos = df['minutos'][-30:].sum()
+    tot_m = df['horas'][-30:].sum() + minutos//60
+    print(f'Últimos 30 dias teve um total de {tot_m}h{minutos%60}m de programação.')
 
 if opt == 7:
     print('Obrigado, bons estudos!')
