@@ -11,7 +11,7 @@ players = 4
 
 for j in range(players):
     dice = randint(1,6)
-    game[f'players{j+1}']= dice    
+    game[f'player_{j+1}']= dice    
 print('-='*30)
 for k, v in game.items():
     

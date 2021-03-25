@@ -22,7 +22,7 @@ if ctps > 0 :
     reg['Ano contratação'] = ano_contrato
     reg['Salário'] = salario
     apo = 35 - (hoje.year- ano_contrato)
-    reg['Aposentadoria'] = apo
+    reg['Aposentadoria em:'] = apo
 print('-='*15)
 for k, v in reg.items():
     print(f'{k}: {v}')

@@ -36,10 +36,11 @@ while True:
     reg['sexo'] = str(input('sexo M/F: ')).lower()
 
     reg['idade'] = int(input('idade: '))
-    if reg['idade'] > media:
+    if reg['idade'] > media :
         acima_media.append(reg['nome'])
         acima_media.append(reg['sexo'])
         acima_media.append(reg['idade'])
+    
     cont_p +=1
     cad.append(reg.copy())
     idade.append(reg['idade'])
@@ -51,12 +52,17 @@ while True:
         break
 
 
-
-
-print(cont_p)
-print(media)
-print(mulheres)
+num = acima_media[2]
+acima = acima_media.copy()
+if num < media:
+    for i in range(3):
+        acima.pop(0)
+        
 print(acima_media)
+print(f'Total de pessoas cadastradas: {cont_p}')
+print(f'A média de idade das pessoas cadastradas: {media} anos.')
+print(f'Mulheres cadastradas: {mulheres}')
+print(acima)
 
 
 
