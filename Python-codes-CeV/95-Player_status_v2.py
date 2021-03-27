@@ -17,27 +17,6 @@ Ex.
 *** valores fora do range, mostra uma msg de erro, e 999 é condição de parada***
 '''
 
-Issues
-
-Pull requests
-
-Actions
-
-More
-
-Python/Python-codes-CeV/93-Player_status_v1.py /
-
-@engcristian
-
-engcristian updating exercise and correcting bug
-
-Latest commit aba7d40 2 days ago
-
- History
-
- 1 contributor
-
-46 lines (39 sloc)  1.48 KB
 
  
 
@@ -49,7 +28,7 @@ reading the name, how many matches, number of goals in each match,
 
 inserting everything in one dict, including the total goals scored during the championship.
 
-
+'''
 
 info = dict()
 
