@@ -17,40 +17,62 @@ Ex.
 *** valores fora do range, mostra uma msg de erro, e 999 é condição de parada***
 '''
 df = []
+df_2 = []
 info = dict()
+info_2 = {}
 
 goals_tot = []
 
-info["name"] = str(input("Player's name: "))
-
-gender = str(input('Gender: [M/F] ')).lower()
-
-if 'm' in gender:
-
-    gen_1 = 'he'
-
-    gen_2 = 'him'
-
-if 'f' in gender:
-
-    gen_1 = 'she'
-
-    gen_2 = 'her'
-
-info["matches"] = int(input(f'How many matches did {gen_1} play? '))
-
-for i in range(info['matches']):          
-
-   goals_tot.append(int(input(f'How many goals at the {i+1}º match: ')))
-
-info['goals per match'] = goals_tot
-
-info['total goals']= sum(goals_tot)
-
-
 opt =''
+num = 0
+while True :
 
-print('-='*20)
+    info["name"] = str(input("Player's name: "))
+
+    gender = str(input('Gender: [M/F] ')).lower()
+
+    if 'm' in gender:
+
+        gen_1 = 'he'
+
+        gen_2 = 'him'
+
+    if 'f' in gender:
+
+        gen_1 = 'she'
+
+        gen_2 = 'her'
+
+    info["matches"] = int(input(f'How many matches did {gen_1} play? '))
+
+    for i in range(info['matches']):          
+
+        goals_tot.append(int(input(f'How many goals at the {i+1}º match: ')))
+
+        info['goals per match'] = goals_tot
+
+        info['total goals']= sum(goals_tot)
+
+        
+    
+    df.append(info)
+    info_2 = info.copy()
+    del info_2['matches']
+    df_2.append(info_2)
+    
+    num = (int(input('''Do you want to keep?
+                            0 - No
+                            1 - Yes ''')))
+    if num == 0:
+        break
+print('ID_NOME____GOLS____TOTAL')
+for i in df_2:
+    for p in i.values():
+        print(f'{p}',end='' )
+
+
+
+'''print('-='*20)
 
 print(f"The field 'name' has the value {info['name']}.")
 
@@ -92,7 +114,7 @@ while 'y' or 'n' in opt:
 
 print(info)
 
-
+'''
 
 
 
