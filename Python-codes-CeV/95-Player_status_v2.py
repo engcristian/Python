@@ -16,20 +16,7 @@ Ex.
 << quer mostrar dados.......
 *** valores fora do range, mostra uma msg de erro, e 999 é condição de parada***
 '''
-
-
- 
-
-'''
-
-Managing the performance of a soccer player
-
-reading the name, how many matches, number of goals in each match,
-
-inserting everything in one dict, including the total goals scored during the championship.
-
-'''
-
+df = []
 info = dict()
 
 goals_tot = []
@@ -59,6 +46,7 @@ for i in range(info['matches']):
 info['goals per match'] = goals_tot
 
 info['total goals']= sum(goals_tot)
+
 
 opt =''
 
@@ -102,6 +90,7 @@ while 'y' or 'n' in opt:
 
         print('Sorry, the options are Y/N.')
 
+print(info)
 
 
 
