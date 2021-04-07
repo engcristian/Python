@@ -30,11 +30,11 @@
 Directory | Description
 ----------|-------------------------------------------
 [**Jupyter**](https://github.com/engcristian/Python/tree/main/Jupyter)    | Notebooks with importants annotations. 
-[**My-Chatbot**](https://github.com/engcristian/Python/tree/main/My-Chatbot)     | Dante is a chatbot created to have a nice talk.
+[**My-Chatbot**](https://github.com/engcristian/Python/tree/main/My-ChatBot)     | Dante is a chatbot created to have a nice talk.
 [**Python-codes-CeV**](https://github.com/engcristian/Python/tree/main/Python-codes-CeV)  | Huge list of interesting codes in Python.
 [**Python-codes-DIO**](https://github.com/engcristian/Python/tree/main/Python-codes-DIO)    | Python classes, functions, lambda and error treatment .
 [**Python-projects-FCC**](https://github.com/engcristian/Python/tree/main/Python-projects-FCC)    | Four projects created at FreeCodeCamp.
-[**Python-codes-kaggle**](https://github.com/engcristian/Python/tree/main/Python-codes-kaggle)    | Python annotations for Kaggle's notebook.
+[**Python-codes-kaggle**](https://github.com/engcristian/Python/tree/main/python-codes-kaggle)    | Python annotations for Kaggle's notebook.
 
 
 <h2>
