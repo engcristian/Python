@@ -28,19 +28,20 @@
 
 File | Description
 ----------|-------------------------------------------
-[DBSCAN](https://github.com/engcristian/Python/blob/main/Jupyter/DBSCAN.ipynb)
-[Dimensionality_reduction](https://github.com/engcristian/Python/blob/main/Jupyter/Dimensionality_reduction.ipynb)
-[K-means](https://github.com/engcristian/Python/blob/main/Jupyter/K-means)
-[Multivariate_analysis](https://github.com/engcristian/Python/blob/main/Jupyter/Multivariate_analysis)
-[Pipelines](https://github.com/engcristian/Python/blob/main/Jupyter/Pipelines)
-[ScatterPlot](https://github.com/engcristian/Python/blob/main/Jupyter/ScatterPlot)
-[Univariate_methods](https://github.com/engcristian/Python/blob/main/Jupyter/Univariate_methods)
+[**DBSCAN**](https://github.com/engcristian/Python/blob/main/Jupyter/DBSCAN.ipynb)|**D**ensity-**B**ased **S**patial **C**lustering of **A**pplications with **N**oise is a data clustering.
+[**Dimensionality_reduction**](https://github.com/engcristian/Python/blob/main/Jupyter/Dimensionality_reduction.ipynb)| Or **dimension reduction**, is the transformation of data from a high-dimensional space into a low-dimensional space.
+[**K-means**](https://github.com/engcristian/Python/blob/main/Jupyter/K-means.ipynb)| A method of vector quantization, originally from signal processing, that aims to partition **n** observations into **k** clusters.
+[**Multivariate_analysis**](https://github.com/engcristian/Python/blob/main/Jupyter/Multivariate_analysis.ipynb)|(**MVA**) is based on the principles of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time.
+[**Pipelines**](https://github.com/engcristian/Python/blob/main/Jupyter/Pipelines.ipynb)| Are a simple way to keep your data preprocessing and modeling code organized.
+[**ScatterPlot**](https://github.com/engcristian/Python/blob/main/Jupyter/ScatterPlot.ipynb)| Mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.
+[**Univariate_methods**](https://github.com/engcristian/Python/blob/main/Jupyter/Univariate_methods.ipynb)|Univariate analysis is the simplest form of analyzing data.
 
 
 <h2>
   <a name="project">Projects </a> 
 </h2>
 
+* Still selecting...
 
 <h2>
   <a name="contribute">Contributing </a> 
@@ -56,15 +57,7 @@ File | Description
 <h2>
   <a name="credits">Credits </a> 
 </h2>
+[**LinkedIn Learning**](https://www.linkedin.com/learning/)
+[**Kaggle**](https://www.kaggle.com/)
 
-Copyright (C) 2020-2021 by **Cristian Santiago** 
-___
-![Visits Badge](https://badges.pufler.dev/visits/engcristian/Python/tree/main/Jupyter)
-
-
-
-
-
-
-
-
+Copyright (C) 2020-2021 by **Cristian Santiago**
