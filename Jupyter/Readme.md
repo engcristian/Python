@@ -57,7 +57,11 @@ File | Description
 <h2>
   <a name="credits">Credits </a> 
 </h2>
-[**LinkedIn Learning**](https://www.linkedin.com/learning/)
-[**Kaggle**](https://www.kaggle.com/)
+
+
+ [**LinkedIn Learning**](https://www.linkedin.com/learning/)
+ 
+ [**Kaggle**](https://www.kaggle.com/)
+
 
 Copyright (C) 2020-2021 by **Cristian Santiago**
