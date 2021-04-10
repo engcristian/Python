@@ -26,10 +26,15 @@
   <a name="contents">Contents </a> 
 </h2>
 
-Directory | Description
+File | Description
 ----------|-------------------------------------------
-
-
+[DBSCAN](https://github.com/engcristian/Python/blob/main/Jupyter/DBSCAN.ipynb)
+[Dimensionality_reduction](https://github.com/engcristian/Python/blob/main/Jupyter/Dimensionality_reduction.ipynb)
+[K-means](https://github.com/engcristian/Python/blob/main/Jupyter/K-means)
+[Multivariate_analysis](https://github.com/engcristian/Python/blob/main/Jupyter/Multivariate_analysis)
+[Pipelines](https://github.com/engcristian/Python/blob/main/Jupyter/Pipelines)
+[ScatterPlot](https://github.com/engcristian/Python/blob/main/Jupyter/ScatterPlot)
+[Univariate_methods](https://github.com/engcristian/Python/blob/main/Jupyter/Univariate_methods)
 
 
 <h2>
@@ -54,7 +59,7 @@ Directory | Description
 
 Copyright (C) 2020-2021 by **Cristian Santiago** 
 ___
-![Visits Badge](https://badges.pufler.dev/visits/engcristian/Python/Jupyter)
+![Visits Badge](https://badges.pufler.dev/visits/engcristian/Python/tree/main/Jupyter)
 
 
 
