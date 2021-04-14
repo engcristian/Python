@@ -33,12 +33,12 @@
 
 Directory | Description
 ----------|-------------------------------------------
-[**My-Chatbot**](https://github.com/engcristian/Python/tree/main/My-ChatBot)    | An automated chatbot usying chatterbot
+[**Chat_bot**](https://github.com/engcristian/Python/tree/main/My-ChatBot)    | An automated chatbot usying chatterbot
 <h2>
   <a name="project">Projects </a> 
 </h2>
 
-[**My-Chatbot**](https://github.com/engcristian/Python/tree/main/My-ChatBot) : Created to get great responses, have a nice conversation and soon get new predictions for the answers.
+[**Chat_bot**](https://github.com/engcristian/Python/tree/main/My-ChatBot) : Created to get great responses, have a nice conversation and soon get new predictions for the answers.
 
 <h2>
   <a name="contribute">Contributing </a> 
