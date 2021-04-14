@@ -2,7 +2,7 @@
 
 <p align='center'> <img src="https://user-images.githubusercontent.com/75224625/114634982-27b4f780-9c9a-11eb-9a91-7f1ccd4405ef.png" width = 600> </p>
 
-<h1 align='center'> ChatBot</h1>
+<h1 align='center'> My ChatBot</h1>
 
 <h4 align='center'>This repository contains my first chatbot </h4>
 
