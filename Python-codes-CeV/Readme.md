@@ -25,7 +25,7 @@
 </h2>
 
 
-  With more than hundreds exercises, the Python courses at Curso em Vídeo are the best way to get first touch in Python, with three worlds (Mundo 01,02 and 03), you can get better each class and exercises. The world one is for beginners, but for sure, the other worlds it gets so hard! The classes are in Portuguese with  [Gustavo Guanabara](https://github.com/gustavoguanabara) as a teacher, with a different method that can make a newbie at programming becames a initial Python developer.
+  With more than hundreds exercises, the Python courses at Curso em Vídeo are the best way to get first touch in Python, with three worlds (Mundo 01, 02 and 03), you can get better each class and exercises. The world one is for beginners, but for sure, the other worlds it gets so hard! The classes are in Portuguese with  [Gustavo Guanabara](https://github.com/gustavoguanabara) as the teacher with a different method that can make a newbie at programming becames a initial Python developer.
 
 
 
@@ -36,13 +36,13 @@
 
 Directory | Description
 ----------|-------------------------------------------
-[** 0 - 27**]| Basic structure, math operators, simple libs and strings in general.
-[** 19 - 44**]| **IF** , **ELSE** and **ELIF** condiction structure.
-[** 45 - 56**]| Repetition structure with **FOR**.
-[** 57 - 71**]| Repetition structure with **WHILE**.
-[** 72 - 77**]| Keeping variables in an immutable **Tuple**.
-[** 78 - 89**]| **Lists** are the best way to save words, results and simple informations.
-[** 90 - 95**]| **Dictionary** is a powerfull tool in Python to keep informations inside keys and values.
+[**0 - 27**]| Basic structure, math operators, simple libs and strings in general.
+[**19 - 44**]| **IF** , **ELSE** and **ELIF** condiction structure.
+[**45 - 56**]| Repetition structure with **FOR**.
+[**57 - 71**]| Repetition structure with **WHILE**.
+[**72 - 77**]| Keeping variables in an immutable **Tuple**.
+[**78 - 89**]| **Lists** are the best way to save words, results and simple informations.
+[**90 - 95**]| **Dictionary** is a powerfull tool in Python to keep informations inside keys and values.
 
 * The world 03 (Mundo 03) has more exercises that I'm still coding, in a good moment I'll commit them.!
 
@@ -69,7 +69,7 @@ Directory | Description
 <h2>
   <a name="credits">Credits </a> 
 </h2>
-<p align='center'> <img src="https://user-images.githubusercontent.com/75224625/114814326-57dbc380-9d8a-11eb-97d4-0ac6cf30b68f.png" width = 150> </p>
+<a href = 'https://www.cursoemvideo.com' align='center'> <img src="https://user-images.githubusercontent.com/75224625/114814326-57dbc380-9d8a-11eb-97d4-0ac6cf30b68f.png" width = 150> </a>
 
 
 Copyright (C) 2020-2021 by **Cristian Santiago** 
