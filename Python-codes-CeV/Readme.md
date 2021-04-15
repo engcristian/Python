@@ -51,7 +51,7 @@ Directory | Description
   <a name="project">Projects </a> 
 </h2>
 
-[**45-jo_ken_po**](https://github.com/engcristian/Python/blob/main/Python-codes-CeV/45-jo_ken_po.py) : A Jo Ken Po game that you play againt the cpu, try to get some scores!
+[**45-jo_ken_po**](https://github.com/engcristian/Python/blob/main/Python-codes-CeV/45-jo_ken_po.py) : A Jo-Ken-Po game that you play against the cpu. Try to get some scores!
 
 [**93-Player_status_v1**](https://github.com/engcristian/Python/blob/main/Python-codes-CeV/93-Player_status_v1.py) : A program that you can insert values from a soccer player and obtain the status.
 <h2>
