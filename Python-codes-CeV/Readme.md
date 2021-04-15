@@ -1,5 +1,6 @@
-<p align='center'> <img src="" width = 600> </p>
-
+<p align='center'> <img src="https://user-images.githubusercontent.com/75224625/114810660-ef3d1880-9d82-11eb-8729-235e323b8c6d.png" width = 150> </p>
+<p align='center'> <img src="https://user-images.githubusercontent.com/75224625/114810809-3deab280-9d83-11eb-9aa0-a5e42fcb696c.png" width = 150> </p>
+<p align='center'> <img src="https://user-images.githubusercontent.com/75224625/114810886-61156200-9d83-11eb-8ad2-cb44d9b84d23.png " width = 150> </p>
 <h1 align='center'> Title</h1>
 
 <h4 align='center'>This repository contains.... </h4>
@@ -38,6 +39,7 @@ Directory | Description
 
 [**main project**](link file) : Explanation
 <h2>
+
   <a name="contribute">Contributing </a> 
 </h2>
 
@@ -51,6 +53,7 @@ Directory | Description
 <h2>
   <a name="credits">Credits </a> 
 </h2>
+<p align='center'> <img src="" width = 150> </p>
 
 
 Copyright (C) 2020-2021 by **Cristian Santiago** 
