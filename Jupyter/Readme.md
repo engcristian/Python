@@ -28,14 +28,18 @@
 
 File | Description
 ----------|-------------------------------------------
+[**BS4**](https://github.com/engcristian/Python/blob/main/Jupyter/BS4.ipynb)|
 [**Bayesian_model**](https://github.com/engcristian/Python/blob/main/Jupyter/Bayesian_model.ipynb)|Naïve Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem.
+[**BeautifulSoup**](https://github.com/engcristian/Python/blob/main/Jupyter/BeautifulSoup.ipynb)|
 [**DBSCAN**](https://github.com/engcristian/Python/blob/main/Jupyter/DBSCAN.ipynb)|**D**ensity-**B**ased **S**patial **C**lustering of **A**pplications with **N**oise is a data clustering.
 [**Dimensionality_reduction**](https://github.com/engcristian/Python/blob/main/Jupyter/Dimensionality_reduction.ipynb)| Or **dimension reduction**, is the transformation of data from a high-dimensional space into a low-dimensional space.
 [**K-means**](https://github.com/engcristian/Python/blob/main/Jupyter/K-means.ipynb)| A method of vector quantization, originally from signal processing, that aims to partition **n** observations into **k** clusters.
 [**KNN**](https://github.com/engcristian/Python/blob/main/Jupyter/KNN.ipynb)| k-nearest neighbors algorithm (k-NN) is a non-parametric classification method.  It is used for classification and regression.
 [**Multivariate_analysis**](https://github.com/engcristian/Python/blob/main/Jupyter/Multivariate_analysis.ipynb)|(**MVA**) is based on the principles of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time.
 [**Pipelines**](https://github.com/engcristian/Python/blob/main/Jupyter/Pipelines.ipynb)| Are a simple way to keep your data preprocessing and modeling code organized.
+[**ReLu**](https://github.com/engcristian/Python/blob/main/Jupyter/ReLu.ipynb)|
 [**ScatterPlot**](https://github.com/engcristian/Python/blob/main/Jupyter/ScatterPlot.ipynb)| Mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.
+[**Single_Neuron**](https://github.com/engcristian/Python/blob/main/Jupyter/Single_Neuron.ipynb)|
 [**Univariate_methods**](https://github.com/engcristian/Python/blob/main/Jupyter/Univariate_methods.ipynb)|Univariate analysis is the simplest form of analyzing data.
 
 
