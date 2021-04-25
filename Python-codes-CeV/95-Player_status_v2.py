@@ -72,49 +72,7 @@ for i in df_2:
 
 
 
-'''print('-='*20)
 
-print(f"The field 'name' has the value {info['name']}.")
-
-print(f"The field 'goals per match' has the value {info['goals per match']}.")
-
-print(f"The field 'total goals' has the value {info['total goals']}.")
-
-print('-='*20)
-
-while 'y' or 'n' in opt:
-
-    opt = str(input(f'Do you wish to get details from {gen_2}? [Y/N]: ')).lower()
-
-    
-
-    if 'y' in opt:
-
-        print(f'The player {info["name"]} played {info["matches"]} matches.')
-
-        for i in range(info['matches']):
-
-            print(f'On the {i+1}º match {gen_1} scored {info["goals per match"][i]} goal(s).')
-
-        print(f"In total {gen_1} scored: {info['total goals']} goals")
-
-        break
-
-        
-
-    if 'n' in opt:
-
-        print('Thank you! Come back often.')
-
-        break
-
-    else:
-
-        print('Sorry, the options are Y/N.')
-
-print(info)
-
-'''
 
 
 
