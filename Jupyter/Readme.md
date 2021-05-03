@@ -38,6 +38,8 @@ File | Description
 [**Multivariate_analysis**](https://github.com/engcristian/Python/blob/main/Jupyter/Multivariate_analysis.ipynb)|(**MVA**) is based on the principles of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time.
 [**Pipelines**](https://github.com/engcristian/Python/blob/main/Jupyter/Pipelines.ipynb)| Are a simple way to keep your data preprocessing and modeling code organized.
 [**ReLu**](https://github.com/engcristian/Python/blob/main/Jupyter/ReLu.ipynb)|
+[**SGD_v1** ](https://github.com/engcristian/Python/blob/main/Jupyter/SGD_v1.ipynb)|
+[**SGD_v2** ](https://github.com/engcristian/Python/blob/main/Jupyter/SGD_v2.ipynb)|
 [**ScatterPlot**](https://github.com/engcristian/Python/blob/main/Jupyter/ScatterPlot.ipynb)| Mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.
 [**Single_Neuron**](https://github.com/engcristian/Python/blob/main/Jupyter/Single_Neuron.ipynb)|
 [**Univariate_methods**](https://github.com/engcristian/Python/blob/main/Jupyter/Univariate_methods.ipynb)|Univariate analysis is the simplest form of analyzing data.
